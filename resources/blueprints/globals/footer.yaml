@@ -1,0 +1,44 @@
+title: Footer
+tabs:
+  main:
+    display: Hauptbereich
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              type: text
+              display: Name
+          -
+            handle: website
+            field:
+              type: text
+              display: Website
+          -
+            handle: email
+            field:
+              type: text
+              display: Email
+          -
+            handle: phone
+            field:
+              type: text
+              display: Phone
+          -
+            handle: imprint
+            field:
+              buttons:
+                - removeformat
+                - anchor
+              toolbar_mode: floating
+              container: assets
+              collapse: true
+              remove_empty_nodes: true
+              type: bard
+              display: Imprint
+          -
+            handle: copyright
+            field:
+              type: text
+              display: Copyright

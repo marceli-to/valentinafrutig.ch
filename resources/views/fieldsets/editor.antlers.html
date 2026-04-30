@@ -1,0 +1,13 @@
+{{ content }}
+
+  {{ if type == 'text' }}
+    {{ text }}
+  {{ /if }}
+
+  {{ if type == 'button' }}
+    <div class="flex justify-center">
+      {{ partial:components/links/spring }}
+    </div>
+  {{ /if }}
+
+{{ /content }}

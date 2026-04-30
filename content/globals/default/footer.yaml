@@ -1,0 +1,42 @@
+name: 'Art Affairs – Valentina Frutig'
+website: 'https://www.artaffairs.ch'
+email: valentina@artaffairs.ch
+phone: '+41 79 587 39 54'
+imprint:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Design: '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://emmaleuthold.ch'
+              rel: null
+              target: _blank
+              title: 'Emma Leuthold'
+        text: 'Emma Leuthold'
+      -
+        type: text
+        text: "\L"
+      -
+        type: hardBreak
+      -
+        type: text
+        text: 'Code: '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://marceli.to'
+              rel: null
+              target: _blank
+              title: 'Marcel Stadelmann'
+        text: 'Marcel Stadelmann'
+copyright: 'Valentina Frutig'

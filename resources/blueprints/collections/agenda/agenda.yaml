@@ -1,0 +1,68 @@
+title: Agenda
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: textarea
+              required: true
+              display: Titel
+              validate:
+                - required
+          -
+            handle: date_start
+            field:
+              type: date
+              display: 'Datum von'
+              width: 50
+          -
+            handle: date_end
+            field:
+              type: date
+              display: 'Datum bis'
+              width: 50
+          -
+            handle: type
+            field:
+              type: text
+              display: Typ
+              width: 50
+          -
+            handle: opening_hours
+            field:
+              type: text
+              display: Öffnungszeiten
+              width: 50
+          -
+            handle: teaser_image
+            field:
+              type: group
+              display: Teaserbild
+              fields:
+                -
+                  handle: image
+                  field:
+                    type: assets
+                    display: Bild
+                    container: assets
+                    max_files: 1
+                -
+                  handle: caption
+                  field:
+                    type: textarea
+                    display: Bildlegende
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'

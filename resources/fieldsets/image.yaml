@@ -1,0 +1,12 @@
+title: Image
+fields:
+  -
+    handle: image
+    field:
+      container: assets
+      max_files: 1
+      min_files: 3
+      type: assets
+      display: Image
+      validate:
+        - required

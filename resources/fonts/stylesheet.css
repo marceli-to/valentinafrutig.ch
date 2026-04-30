@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Sloop';
+    src: url('Sloop-ScriptThree.woff2') format('woff2'),
+        url('Sloop-ScriptThree.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dazzed-TRIAL';
+    src: url('Dazzed-SemiBoldItalic.woff2') format('woff2'),
+        url('Dazzed-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dazzed-TRIAL';
+    src: url('Dazzed-SemiBold.woff2') format('woff2'),
+        url('Dazzed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

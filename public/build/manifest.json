@@ -1,0 +1,59 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-BfPQSp2Y.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "assets": [
+      "assets/Dazzed-SemiBold-Mk1CCeJ6.woff2",
+      "assets/Dazzed-SemiBold-DUIm9U2K.woff",
+      "assets/Dazzed-SemiBoldItalic-CeFSkiWv.woff2",
+      "assets/Dazzed-SemiBoldItalic-DAsIGhg4.woff",
+      "assets/Dazzed-Bold-tVl1Sr5g.woff2",
+      "assets/Dazzed-Bold-LsUfqxMm.woff",
+      "assets/Sloop-ScriptThree-jpDbjuxV.woff2",
+      "assets/Sloop-ScriptThree-BtMW281U.woff"
+    ]
+  },
+  "resources/fonts/Dazzed-Bold.woff": {
+    "file": "assets/Dazzed-Bold-LsUfqxMm.woff",
+    "src": "resources/fonts/Dazzed-Bold.woff"
+  },
+  "resources/fonts/Dazzed-Bold.woff2": {
+    "file": "assets/Dazzed-Bold-tVl1Sr5g.woff2",
+    "src": "resources/fonts/Dazzed-Bold.woff2"
+  },
+  "resources/fonts/Dazzed-SemiBold.woff": {
+    "file": "assets/Dazzed-SemiBold-DUIm9U2K.woff",
+    "src": "resources/fonts/Dazzed-SemiBold.woff"
+  },
+  "resources/fonts/Dazzed-SemiBold.woff2": {
+    "file": "assets/Dazzed-SemiBold-Mk1CCeJ6.woff2",
+    "src": "resources/fonts/Dazzed-SemiBold.woff2"
+  },
+  "resources/fonts/Dazzed-SemiBoldItalic.woff": {
+    "file": "assets/Dazzed-SemiBoldItalic-DAsIGhg4.woff",
+    "src": "resources/fonts/Dazzed-SemiBoldItalic.woff"
+  },
+  "resources/fonts/Dazzed-SemiBoldItalic.woff2": {
+    "file": "assets/Dazzed-SemiBoldItalic-CeFSkiWv.woff2",
+    "src": "resources/fonts/Dazzed-SemiBoldItalic.woff2"
+  },
+  "resources/fonts/Sloop-ScriptThree.woff": {
+    "file": "assets/Sloop-ScriptThree-BtMW281U.woff",
+    "src": "resources/fonts/Sloop-ScriptThree.woff"
+  },
+  "resources/fonts/Sloop-ScriptThree.woff2": {
+    "file": "assets/Sloop-ScriptThree-jpDbjuxV.woff2",
+    "src": "resources/fonts/Sloop-ScriptThree.woff2"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BcvDaBrF.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}

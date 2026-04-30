@@ -1,0 +1,9 @@
+title: 'Titel, Text'
+fields:
+  -
+    handle: title
+    field:
+      type: text
+      display: Title
+  -
+    import: editor

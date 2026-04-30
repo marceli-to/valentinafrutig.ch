@@ -1,0 +1,17 @@
+title: Address
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: name
+            field:
+              type: textarea
+              display: Name
+          -
+            handle: address
+            field:
+              type: textarea
+              display: Address

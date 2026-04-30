@@ -1,0 +1,73 @@
+title: Page
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: blocks
+            field:
+              type: replicator
+              display: 'Content Blocks'
+              collapse: true
+              sets:
+                main:
+                  display: Main
+                  sets:
+                    image:
+                      display: 'Single Image'
+                      instructions: 'Add a single image'
+                      icon: insert-image
+                      fields:
+                        -
+                          import: image
+                    quote:
+                      display: Quote
+                      instructions: 'Add a quote'
+                      icon: quote
+                      fields:
+                        -
+                          import: quote
+                    title_text:
+                      display: 'Title, Text'
+                      instructions: 'Add a text element with a title'
+                      icon: text-formatting-image-top
+                      fields:
+                        -
+                          import: title_text
+  settings:
+    display: Settings
+    sections:
+      -
+        display: Template
+        fields:
+          -
+            handle: template
+            field:
+              type: template
+              display: Template
+      -
+        display: SEO
+        fields:
+          -
+            import: seo
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+              show_regenerate: true
