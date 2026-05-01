@@ -77,3 +77,13 @@ article a:hover {
 article a {
   @apply underline underline-offset-2;
 }
+
+article a[href^="tel:"]:hover,
+article a[href^="mailto:"]:hover {
+  @apply underline underline-offset-2;
+}
+
+article a[href^="tel:"],
+article a[href^="mailto:"] {
+  @apply no-underline;
+}
