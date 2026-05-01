@@ -3,7 +3,7 @@ id: d418c449-081a-4e69-9e38-c869ef935984
 blueprint: page
 title: Affairs
 updated_by: 837ce95e-89bd-471c-af1b-fefad55d3952
-updated_at: 1777650981
+updated_at: 1777651715
 blocks:
   -
     id: pAFvjK9y3lUnyc5j_qeyu
@@ -20,7 +20,21 @@ blocks:
             content:
               -
                 type: text
-                text: 'We develop tailor-made exhibition concepts that bridge the gap between artistic vision and public engagement. From thematic research to final installation, we create immersive experiences that resonate with your audience.'
+                text: 'We develop tailor-made exhibition concepts that bridge the gap between artistic vision and public engagement. From thematic research to final installation, we create immersive experiences that '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://google.com'
+                      rel: null
+                      target: _blank
+                      title: null
+                text: resonate
+              -
+                type: text
+                text: ' with your audience.'
           -
             type: heading
             attrs:

@@ -32,6 +32,14 @@
   display: none !important;
 }
 
+[data-shy] {
+  @apply transition-opacity duration-200 ease-out;
+}
+
+[data-shy].is-shy {
+  @apply opacity-0 pointer-events-none;
+}
+
 strong, b {
   @apply font-bold;
 }
@@ -62,10 +70,10 @@ article li p {
   @apply inline;
 }
 
-article a {
+article a:hover {
   @apply no-underline;
 }
 
-article a:hover {
+article a {
   @apply underline underline-offset-2;
 }

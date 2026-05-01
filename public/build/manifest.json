@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-CwszJeVz.css",
+    "file": "assets/app-DkUmX4Xu.css",
     "name": "app",
     "names": [
       "app.css"
@@ -51,7 +51,7 @@
     "src": "resources/fonts/Sloop-ScriptThree.woff2"
   },
   "resources/js/app.js": {
-    "file": "assets/app-BcvDaBrF.js",
+    "file": "assets/app-N8asSafH.js",
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true
