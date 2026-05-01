@@ -49,15 +49,15 @@ article ul:not(:last-child) {
 }
 
 article ul {
-  @apply list-disc m-0 p-0;
+  @apply list-disc list-outside mx-auto lg:mx-0 text-left w-fit;
 }
 
 article li {
-  @apply ml-20
+  @apply ml-20;
 }
 
 article li p {
-  @apply inline
+  @apply inline;
 }
 
 article a {
