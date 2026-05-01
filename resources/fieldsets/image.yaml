@@ -5,8 +5,21 @@ fields:
     field:
       container: assets
       max_files: 1
-      min_files: 3
+      min_files: 1
       type: assets
       display: Image
       validate:
         - required
+  -
+    handle: caption
+    field:
+      buttons:
+        - bold
+        - italic
+        - removeformat
+        - anchor
+      toolbar_mode: floating
+      container: assets
+      remove_empty_nodes: true
+      type: bard
+      display: Legende

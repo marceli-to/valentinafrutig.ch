@@ -7,18 +7,17 @@
 @source "../../content";
 @source '../**/*.js';
 
-@custom-variant dark (&:where(.dark, .dark *));
-
 @theme {
-  --header-height-sm: 6.875rem;
+  --header-height-sm: 6.875rem; /* 110px */
+  --header-height-lg: 6.25rem; /* 100px */
 
   --font-sans: 'Dazzed', sans-serif;
   --font-serif: 'Sloop', serif;
 
   --color-accent: #0000FF;
 
-  --container-inner: 85rem; /* 1360px */
-  --container-outer: 112.5rem; /* 1800px */
+  --container-inner: 90rem; /* 1440px */
+  --container-outer: 120rem; /* 1920px */
 
 }
 
@@ -33,5 +32,38 @@
 }
 
 strong, b {
+  @apply font-bold;
+}
 
+article h2 {
+  @apply text-[30px] lg:text-[50px] leading-[1.05] uppercase mb-5 lg:mb-15;
+}
+
+article h3 {
+  @apply font-bold mb-5 lg:mb-10;
+}
+
+article p:not(:last-child),
+article ul:not(:last-child) {
+  @apply mb-15;
+}
+
+article ul {
+  @apply list-disc m-0 p-0;
+}
+
+article li {
+  @apply ml-20
+}
+
+article li p {
+  @apply inline
+}
+
+article a {
+  @apply no-underline;
+}
+
+article a:hover {
+  @apply underline underline-offset-2;
 }

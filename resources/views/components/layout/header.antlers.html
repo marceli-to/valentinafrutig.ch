@@ -1,7 +1,7 @@
-<header class="px-20 lg:max-w-outer w-full mx-auto bg-blue-100 h-[var(--header-height-sm)]">
-  <div class="flex justify-between">
+<header class="px-20 lg:px-40 lg:max-w-outer w-full mx-auto lg:flex lg:items-center h-[var(--header-height-sm)] lg:h-[var(--header-height-lg)]">
+  <div class="flex justify-between lg:w-full">
 
-    <div class="mt-24">
+    <div class="mt-24 lg:!hidden">
       <a 
         href="{{ site:url }}"
         class="block w-160"
@@ -10,9 +10,8 @@
       </a>
     </div>
 
-    <div class="mt-38">
-    {{ partial:components/menu/button }}
-    </div>
+   {{ partial:components/menu/buttons/show class="fixed top-38 right-20 z-50 lg:!hidden" }}
+   {{ partial:components/menu/container }}
 
   </div>
 </header>

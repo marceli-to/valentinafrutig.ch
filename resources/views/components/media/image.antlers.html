@@ -33,9 +33,9 @@
       class="block {{ class ?? '' }}"
       loading="{{ eager ? 'eager' : 'lazy' }}">
   </picture>
-  {{ if alt }}
-    <figcaption class="{{ captionClass }}">
-      {{ alt | nl2br }}
+  {{ if caption }}
+    <figcaption>
+      {{ caption | nl2br }}
     </figcaption>
   {{ /if }}
 </figure>

@@ -1,0 +1,49 @@
+<a 
+  href="{{ site:url }}"
+  class="block w-65 mx-auto lg:mx-0 mb-24 lg:mb-0"
+  aria-label="Valentina Frutig">
+  {{ partial:components/logos/icon class="w-full h-auto" }}
+</a>
+
+<div class="text-center lg:text-left mb-15 lg:mb-0">
+  {{ if contact:name }}
+    <div>
+      {{ contact:name }}
+    </div>
+  {{ /if }}
+
+  {{ if contact:website }}
+    <div>
+      <a
+        href="{{ contact:website }}"
+        target="_blank"
+        rel="noopener noreferrer">
+        www.artaffairs.ch
+      </a>
+    </div>
+  {{ /if }}
+</div>
+
+<div class="text-center lg:text-left mb-45 lg:mb-0">
+  {{ if contact:email }}
+    <div>
+      <a
+        href="mailto:{{ contact:email }}"
+        class="block"
+        aria-label="E-Mail senden">
+        {{ contact:email }}
+      </a>
+    </div>
+  {{ /if }}
+
+  {{ if contact:phone }}
+    <div>
+      <a
+        href="tel:{{ contact:phone }}"
+        class="block"
+        aria-label="Rufen Sie uns an">
+        {{ contact:phone }}
+      </a>
+    </div>
+  {{ /if }}
+</div>

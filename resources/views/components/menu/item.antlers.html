@@ -1,8 +1,14 @@
-<li>
+<li 
+  class="{{ if first && !is_current }}lg:mr-90 hover:lg:mr-65{{ /if }} {{ if first && is_current }}lg:mr-65{{ /if }} {{ if last }}lg:ml-auto{{ /if }}">
   <a 
     href="{{ url }}" 
-    class=""
+    class="block text-[50px] lg:text-[30px] hover:lg:text-[55px] hover:lg:font-serif hover:lg:font-normal leading-none {{ is_current ? 'font-serif font-normal text-[70px] lg:text-[55px]' : '' }}
     aria-label="{{ title }}">
-    {{ title }}
+    {{ if mobile_title }}
+      <span class="lg:hidden">{{ mobile_title }}</span>
+      <span class="hidden lg:inline">{{ title }}</span>
+    {{ else }}
+      <span>{{ title }}</span>
+    {{ /if }}
   </a>
 </li>

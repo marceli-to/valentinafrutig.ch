@@ -1,0 +1,16 @@
+
+<div class="flex flex-col gap-y-40 lg:grid lg:grid-cols-2 lg:gap-80">
+
+  <div class="flex flex-col gap-y-40 lg:gap-y-80">
+    {{ block_left }}
+      {{ partial:components/blocks }}
+    {{ /block_left }}
+  </div>
+
+  <div class="flex flex-col gap-y-40 lg:gap-y-80">
+    {{ block_right }}
+      {{ partial:components/blocks }}
+    {{ /block_right }}
+  </div>
+  
+</div>

@@ -1,0 +1,11 @@
+tabs:
+  main:
+    display: Hauptbereich
+    sections:
+      -
+        fields:
+          -
+            handle: mobile_title
+            field:
+              type: text
+              display: 'Mobile Title'

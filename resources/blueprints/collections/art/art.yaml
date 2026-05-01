@@ -1,4 +1,4 @@
-title: Page
+title: Art
 tabs:
   main:
     display: Main
@@ -10,8 +10,18 @@ tabs:
             field:
               type: text
               required: true
+              display: Titel
               validate:
                 - required
+          -
+            handle: text
+            field:
+              import: editor
+          -
+            handle: type
+            field:
+              type: text
+              display: Typ
           -
             handle: blocks
             field:
@@ -22,29 +32,21 @@ tabs:
                 main:
                   display: Main
                   sets:
-                    grid:
-                      display: Grid
-                      instructions: 'Add a two-column grid'
-                      icon: layout-two-columns
+                    image:
+                      display: 'Single Image'
+                      instructions: 'Add a single image'
+                      icon: insert-image
                       fields:
                         -
-                          import: grid
-  settings:
-    display: Settings
+                          import: image
+  teaser:
+    display: Teaser
     sections:
       -
-        display: Template
+        display: Teaser
         fields:
           -
-            handle: template
-            field:
-              type: template
-              display: Template
-      -
-        display: SEO
-        fields:
-          -
-            import: seo
+            import: image
   sidebar:
     display: Sidebar
     sections:
@@ -56,4 +58,3 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
-              show_regenerate: true

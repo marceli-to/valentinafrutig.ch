@@ -1,0 +1,14 @@
+<article class="max-lg:text-center max-lg:max-w-prose max-lg:mx-auto lg:-mt-7">
+  {{ if title }}
+    <h2>
+      {{ title }}
+    </h2>
+  {{ /if }}
+  {{ if editor }}
+    {{ editor }}
+      {{ if type == 'text' }}
+        <div>{{ text }}</div>
+      {{ /if }}
+    {{ /editor }}
+  {{ /if }}
+</article>
