@@ -28,10 +28,31 @@ fields:
             title_text:
               display: 'Title, Text'
               instructions: 'Add a text element with a title'
-              icon: text-formatting-image-top
+              icon: text-formatting-initial-letter
               fields:
                 -
                   import: title_text
+            art_teaser:
+              display: 'Art Teaser'
+              instructions: 'Add a teaser linking to an art entry'
+              icon: text-formatting-image-top
+              fields:
+                -
+                  import: art_teaser
+            page_teaser:
+              display: 'Page Teaser'
+              instructions: 'Add a teaser with image, title and text'
+              icon: text-formatting-image-top
+              fields:
+                -
+                  import: page_teaser
+            about:
+              display: About
+              instructions: 'Add an about block with image and quote'
+              icon: user
+              fields:
+                -
+                  import: about
   -
     handle: block_right
     field:
@@ -60,7 +81,28 @@ fields:
             title_text:
               display: 'Title, Text'
               instructions: 'Add a text element with a title'
-              icon: text-formatting-image-top
+              icon: text-formatting-initial-letter
               fields:
                 -
                   import: title_text
+            art_teaser:
+              display: 'Art Teaser'
+              instructions: 'Add a teaser linking to an art entry'
+              icon: text-formatting-image-top
+              fields:
+                -
+                  import: art_teaser
+            page_teaser:
+              display: 'Page Teaser'
+              instructions: 'Add a teaser with image, title and text'
+              icon: text-formatting-image-top
+              fields:
+                -
+                  import: page_teaser
+            about:
+              display: About
+              instructions: 'Add an about block with image and quote'
+              icon: user
+              fields:
+                -
+                  import: about

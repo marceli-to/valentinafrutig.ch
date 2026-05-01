@@ -29,6 +29,27 @@ tabs:
                       fields:
                         -
                           import: grid
+                    art_teaser:
+                      display: 'Art Teaser'
+                      instructions: 'Add a teaser linking to an art entry'
+                      icon: text-formatting-image-top
+                      fields:
+                        -
+                          import: art_teaser
+                    page_teaser:
+                      display: 'Page Teaser'
+                      instructions: 'Add a teaser with image, title and text'
+                      icon: text-formatting-image-top
+                      fields:
+                        -
+                          import: page_teaser
+                    about:
+                      display: About
+                      instructions: 'Add an about block with image and quote'
+                      icon: user
+                      fields:
+                        -
+                          import: about
   settings:
     display: Settings
     sections:

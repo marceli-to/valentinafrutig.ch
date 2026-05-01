@@ -1,0 +1,11 @@
+<a
+  href="{{ art:url }}"
+  aria-label="{{ art:title }}"
+  class="block {{ !is_grid ? 'max-w-2xl mx-auto mb-60 lg:mb-150' : '' }}">
+  {{ partial:components/teaser
+    :image="art:image"
+    :alt="art:image:alt"
+    type_label="{teaser_type ?: art:type}"
+    :title="art:title"
+    :editor="art:editor" }}
+</a>

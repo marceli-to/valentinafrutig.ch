@@ -1,0 +1,14 @@
+<div class="max-lg:max-w-prose max-lg:mx-auto flex flex-col gap-y-30 lg:gap-y-50">
+
+  <blockquote class="italic">
+    {{ quote }}
+    {{ if author }}
+      <cite class="not-italic block mt-15">– {{ author }}</cite>
+    {{ /if }}
+  </blockquote>
+
+{{ partial:components/media/image 
+  :image="image" 
+  :alt="image:alt"
+  sizes="(min-width: 1024px) 50rem, 100vw" }}
+</div>

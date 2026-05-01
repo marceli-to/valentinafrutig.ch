@@ -10,9 +10,23 @@
   {{ partial:components/fieldsets/image }}
 {{ /if }}
 
+{{ if type == 'about' }}
+  {{ partial:components/fieldsets/about }}
+{{ /if }}
+
 {{ if type == 'title_text' }}
   {{ partial:components/fieldsets/title_text }}
 {{ /if }}
+
+{{ if type == 'art_teaser' }}
+  {{ partial:components/fieldsets/art_teaser }}
+{{ /if }}
+
+{{ if type == 'page_teaser' }}
+  {{ partial:components/fieldsets/page_teaser }}
+{{ /if }}
+
+
 
 
 

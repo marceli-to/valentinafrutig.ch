@@ -1,8 +1,9 @@
 title: Art
 icon: collections
-template: default
+template: show
 layout: layout
 revisions: false
+route: '/art/{slug}'
 sort_dir: asc
 date_behavior:
   past: null

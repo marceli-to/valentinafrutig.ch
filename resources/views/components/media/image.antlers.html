@@ -34,7 +34,7 @@
       loading="{{ eager ? 'eager' : 'lazy' }}">
   </picture>
   {{ if caption }}
-    <figcaption>
+    <figcaption class="{{ captionClass }}">
       {{ caption | nl2br }}
     </figcaption>
   {{ /if }}

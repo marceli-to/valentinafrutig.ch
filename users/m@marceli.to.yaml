@@ -16,3 +16,8 @@ preferences:
         - status
     agenda:
       view: list
+    art:
+      view: list
+      columns:
+        - title
+        - type

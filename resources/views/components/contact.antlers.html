@@ -5,7 +5,7 @@
   {{ partial:components/logos/icon class="w-full h-auto" }}
 </a>
 
-<div class="text-center lg:text-left mb-15 lg:mb-0">
+<div class="text-center lg:text-left mb-15 lg:mb-0 [&_a]:no-underline [&_a]:underline-offset-2 [&_a]:hover:underline">
   {{ if contact:name }}
     <div>
       {{ contact:name }}
@@ -24,7 +24,7 @@
   {{ /if }}
 </div>
 
-<div class="text-center lg:text-left mb-45 lg:mb-0">
+<div class="text-center lg:text-left mb-45 lg:mb-0 [&_a]:no-underline [&_a]:underline-offset-2 [&_a]:hover:underline">
   {{ if contact:email }}
     <div>
       <a

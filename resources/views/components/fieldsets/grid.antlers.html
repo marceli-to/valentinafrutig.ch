@@ -1,15 +1,15 @@
 
-<div class="flex flex-col gap-y-40 lg:grid lg:grid-cols-2 lg:gap-80">
+<div class="flex flex-col gap-50 lg:gap-y-100 lg:grid lg:grid-cols-2">
 
-  <div class="flex flex-col gap-y-40 lg:gap-y-80">
+  <div class="flex flex-col gap-y-50 lg:gap-y-100">
     {{ block_left }}
-      {{ partial:components/blocks }}
+      {{ partial:components/blocks is_grid="true" }}
     {{ /block_left }}
   </div>
 
-  <div class="flex flex-col gap-y-40 lg:gap-y-80">
+  <div class="flex flex-col gap-y-50 lg:gap-y-100">
     {{ block_right }}
-      {{ partial:components/blocks }}
+      {{ partial:components/blocks is_grid="true" }}
     {{ /block_right }}
   </div>
   

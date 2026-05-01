@@ -11,6 +11,11 @@ fields:
       validate:
         - required
   -
+    handle: toggle_caption
+    field:
+      type: toggle
+      display: 'Bildlegende?'
+  -
     handle: caption
     field:
       buttons:
@@ -23,3 +28,5 @@ fields:
       remove_empty_nodes: true
       type: bard
       display: Legende
+      if:
+        toggle_caption: 'equals true'

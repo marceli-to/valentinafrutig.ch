@@ -1,0 +1,33 @@
+<article class="max-w-3xl mx-auto">
+
+  <a 
+    href="/" 
+    aria-label="Back to Art"
+    class="inline-block mb-5 lg:mb-10 underline underline-offset-2 hover:no-underline">
+    ← back
+  </a>
+
+  <h1>
+    {{ title }}
+  </h1>
+
+  {{ if editor }}
+    <div class="mb-30 lg:mb-50 max-w-lg">
+      {{ editor }}
+        {{ if type == 'text' }}
+          <div>{{ text }}</div>
+        {{ /if }}
+      {{ /editor }}
+    </div>
+  {{ /if }}
+
+  <div class="flex flex-col gap-y-50 lg:gap-y-100">
+    {{ blocks }}
+      {{ if type == 'image' }}
+        {{ partial:components/fieldsets/image captionClass="text-center mt-10 lg:mt-15" }}
+      {{ /if }}
+    {{ /blocks }}
+  </div>
+
+</article>
+

@@ -10,14 +10,10 @@ blocks:
     block_left:
       -
         id: wL96UJ7QKh5Ag6adVoTLJ
+        image: valentina-frutig.jpg
         quote: "An exhibition brings together people from different worlds. \LWhat else does that in such a unique way?\L Artists give form to their mind and soul. An artwork touches us and is meant to stay. What else in life is with us for so long?\LPerhaps it’s a kind of quiet love affair — for the artist, the collector, \Land for myself as a matchmaker."
         author: 'Valentina Frutig'
-        type: quote
-        enabled: true
-      -
-        id: AGJQKdNbvRsvPkkQYLebw
-        image: valentina-frutig.jpg
-        type: image
+        type: about
         enabled: true
     type: grid
     enabled: true

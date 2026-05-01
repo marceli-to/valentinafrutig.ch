@@ -1,0 +1,20 @@
+title: 'Art Teaser'
+fields:
+  -
+    handle: teaser_type
+    field:
+      type: text
+      display: Type
+      instructions: 'Use for the "Art" page. Overwrites type set in entry.'
+      instructions_position: below
+      placeholder: Type...
+  -
+    handle: art
+    field:
+      type: entries
+      display: Art
+      collections:
+        - art
+      max_items: 1
+      validate:
+        - required

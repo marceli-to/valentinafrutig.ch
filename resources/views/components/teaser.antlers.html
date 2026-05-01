@@ -1,0 +1,34 @@
+<article>
+  {{ if image }}
+    <div class="mb-10 lg:mb-15">
+      {{ partial:components/media/image
+        :image="image"
+        :alt="alt"
+        sizes="(min-width: 1024px) 50rem, 100vw" }}
+    </div>
+  {{ /if }}
+
+  {{ if type_label }}
+    <span class="block text-center mb-3 lg:mb-5">
+      {{ type_label }}
+    </span>
+  {{ /if }}
+
+  <div class="text-center">
+    {{ if title }}
+      <h2>
+        {{ title }}
+      </h2>
+    {{ /if }}
+
+    {{ if editor }}
+      <div class="max-w-lg mx-auto">
+        {{ editor }}
+          {{ if type == 'text' }}
+            <div>{{ text }}</div>
+          {{ /if }}
+        {{ /editor }}
+      </div>
+    {{ /if }}
+  </div>
+</article>

@@ -1,0 +1,6 @@
+title: About
+fields:
+  -
+    import: image
+  -
+    import: quote

@@ -1,0 +1,17 @@
+{{ if link }}
+  <a href="{{ link }}" class="block {{ !is_grid ? 'max-w-2xl mx-auto mb-60 lg:mb-150' : '' }}">
+    {{ partial:components/teaser
+      :image="image"
+      :alt="image:alt"
+      :title="title"
+      :editor="editor" }}
+  </a>
+{{ else }}
+  <div class="block {{ !is_grid ? 'max-w-2xl mx-auto mb-60 lg:mb-150' : '' }}">
+    {{ partial:components/teaser
+      :image="image"
+      :alt="image:alt"
+      :title="title"
+      :editor="editor" }}
+  </div>
+{{ /if }}

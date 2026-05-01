@@ -1,0 +1,20 @@
+title: 'Page Teaser'
+fields:
+  -
+    import: image
+  -
+    handle: title
+    field:
+      type: text
+      display: Titel
+      validate:
+        - required
+  -
+    import: editor
+  -
+    handle: link
+    field:
+      type: link
+      display: Link
+      collections:
+        - pages
