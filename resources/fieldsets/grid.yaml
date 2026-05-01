@@ -1,11 +1,11 @@
 title: Grid
 fields:
   -
-    handle: block_left
+    handle: blocks
     field:
       type: replicator
-      display: 'Column (Left)'
-      width: 50
+      display: Blocks
+      instructions: 'Order blocks as they should appear on mobile (top to bottom). Pick a column for each block to control desktop placement.'
       collapse: true
       sets:
         main:
@@ -17,58 +17,7 @@ fields:
               icon: insert-image
               fields:
                 -
-                  import: image
-            quote:
-              display: Quote
-              instructions: 'Add a quote'
-              icon: quote
-              fields:
-                -
-                  import: quote
-            title_text:
-              display: 'Title, Text'
-              instructions: 'Add a text element with a title'
-              icon: text-formatting-initial-letter
-              fields:
-                -
-                  import: title_text
-            art_teaser:
-              display: 'Art Teaser'
-              instructions: 'Add a teaser linking to an art entry'
-              icon: text-formatting-image-top
-              fields:
-                -
-                  import: art_teaser
-            page_teaser:
-              display: 'Page Teaser'
-              instructions: 'Add a teaser with image, title and text'
-              icon: text-formatting-image-top
-              fields:
-                -
-                  import: page_teaser
-            about:
-              display: About
-              instructions: 'Add an about block with image and quote'
-              icon: user
-              fields:
-                -
-                  import: about
-  -
-    handle: block_right
-    field:
-      type: replicator
-      display: 'Column (Right)'
-      width: 50
-      collapse: true
-      sets:
-        main:
-          display: Main
-          sets:
-            image:
-              display: 'Single Image'
-              instructions: 'Add a single image'
-              icon: insert-image
-              fields:
+                  import: grid_column
                 -
                   import: image
             quote:
@@ -77,12 +26,16 @@ fields:
               icon: quote
               fields:
                 -
+                  import: grid_column
+                -
                   import: quote
             title_text:
               display: 'Title, Text'
               instructions: 'Add a text element with a title'
               icon: text-formatting-initial-letter
               fields:
+                -
+                  import: grid_column
                 -
                   import: title_text
             art_teaser:
@@ -91,6 +44,8 @@ fields:
               icon: text-formatting-image-top
               fields:
                 -
+                  import: grid_column
+                -
                   import: art_teaser
             page_teaser:
               display: 'Page Teaser'
@@ -98,11 +53,15 @@ fields:
               icon: text-formatting-image-top
               fields:
                 -
+                  import: grid_column
+                -
                   import: page_teaser
-            about:
-              display: About
-              instructions: 'Add an about block with image and quote'
+            portrait:
+              display: Portrait
+              instructions: 'Add a portrait block with image and quote'
               icon: user
               fields:
                 -
-                  import: about
+                  import: grid_column
+                -
+                  import: portrait

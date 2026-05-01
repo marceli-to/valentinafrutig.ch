@@ -6,6 +6,7 @@
 @source "../views";
 @source "../../content";
 @source '../**/*.js';
+@source inline("{order-{1..36}}");
 
 @theme {
   --header-height-sm: 6.875rem; /* 110px */

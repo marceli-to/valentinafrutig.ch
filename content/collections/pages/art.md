@@ -16,14 +16,22 @@ blocks:
     id: s0vb5DH9W69OkqFPKoa5V
     type: grid
     enabled: true
-    block_left:
+    blocks:
       -
         id: rVlloLY77Vg-0ovPW8Yt6
+        column: left
         art: 8fc16909-d22b-4f6e-97b2-051a08718f58
         type: art_teaser
         enabled: true
       -
+        id: 3AOFkTCCXuZZykjD4ubSm
+        column: right
+        art: 34f76104-6f41-48f2-a551-a4152f47a888
+        type: art_teaser
+        enabled: true
+      -
         id: hECJ1P59A06NwE_wgWqLy
+        column: left
         image: valentina-frutig.jpg
         title: "Introducing \LArt Affairs"
         editor:
@@ -37,14 +45,9 @@ blocks:
         enabled: true
         toggle_caption: false
         link: 'entry::3ccb0737-3299-4b4f-a772-72d031ab1a94'
-    block_right:
-      -
-        id: 3AOFkTCCXuZZykjD4ubSm
-        art: 34f76104-6f41-48f2-a551-a4152f47a888
-        type: art_teaser
-        enabled: true
       -
         id: lh-fT0MLhawrQ4E7Sm04E
+        column: right
         art: d31fe5c7-8601-4168-95eb-336154b08620
         type: art_teaser
         enabled: true

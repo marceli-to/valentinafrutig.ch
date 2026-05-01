@@ -43,13 +43,13 @@ tabs:
                       fields:
                         -
                           import: page_teaser
-                    about:
-                      display: About
-                      instructions: 'Add an about block with image and quote'
+                    portrait:
+                      display: Portrait
+                      instructions: 'Add a portrait block with image and quote'
                       icon: user
                       fields:
                         -
-                          import: about
+                          import: portrait
   settings:
     display: Settings
     sections:

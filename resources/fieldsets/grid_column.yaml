@@ -1,0 +1,13 @@
+title: 'Grid Column'
+fields:
+  -
+    handle: column
+    field:
+      type: button_group
+      display: 'Desktop Column'
+      instructions: 'Which column on desktop? On mobile, blocks stack in the order shown above.'
+      default: left
+      width: 100
+      options:
+        left: Left
+        right: Right

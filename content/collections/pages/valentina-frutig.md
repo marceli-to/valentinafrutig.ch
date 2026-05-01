@@ -3,23 +3,16 @@ id: 3ccb0737-3299-4b4f-a772-72d031ab1a94
 blueprint: page
 title: 'Valentina Frutig'
 updated_by: 837ce95e-89bd-471c-af1b-fefad55d3952
-updated_at: 1777622928
+updated_at: 1777650912
 blocks:
   -
     id: Dpjj3cDRO5AIqOoVlYczq
-    block_left:
-      -
-        id: wL96UJ7QKh5Ag6adVoTLJ
-        image: valentina-frutig.jpg
-        quote: "An exhibition brings together people from different worlds. \LWhat else does that in such a unique way?\L Artists give form to their mind and soul. An artwork touches us and is meant to stay. What else in life is with us for so long?\LPerhaps it’s a kind of quiet love affair — for the artist, the collector, \Land for myself as a matchmaker."
-        author: 'Valentina Frutig'
-        type: about
-        enabled: true
     type: grid
     enabled: true
-    block_right:
+    blocks:
       -
         id: j6CVVvDp_SS-_wUgJUsGR
+        column: right
         title: About
         editor:
           -
@@ -43,7 +36,17 @@ blocks:
         type: title_text
         enabled: true
       -
+        id: wL96UJ7QKh5Ag6adVoTLJ
+        column: left
+        image: valentina-frutig.jpg
+        quote: "An exhibition brings together people from different worlds. \LWhat else does that in such a unique way?\L Artists give form to their mind and soul. An artwork touches us and is meant to stay. What else in life is with us for so long?\LPerhaps it’s a kind of quiet love affair — for the artist, the collector, \Land for myself as a matchmaker."
+        author: 'Valentina Frutig'
+        type: portrait
+        enabled: true
+        toggle_caption: false
+      -
         id: qpkI4rPjslEmxiDPkHUWA
+        column: right
         title: Contact
         editor:
           -
