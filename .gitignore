@@ -19,6 +19,10 @@
 /public/.htaccess
 /public/robots.txt
 /public/vendor/statamic
+/public/assets
+/content
+/resources/users
+/users
 /storage/*.key
 /storage/pail
 /vendor
