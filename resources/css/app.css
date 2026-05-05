@@ -59,7 +59,7 @@ article ul:not(:last-child) {
 }
 
 article ul {
-  @apply list-disc list-outside mx-auto lg:mx-0 text-left w-fit;
+  @apply list-disc;
 }
 
 article li {

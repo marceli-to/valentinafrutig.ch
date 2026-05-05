@@ -1,6 +1,6 @@
 <article>
   {{ if image }}
-    <div class="mb-10 lg:mb-15">
+    <div class="mb-10 lg:mb-15 flex justify-center">
       {{ partial:components/media/image
         :image="image"
         :alt="alt"
@@ -16,7 +16,7 @@
 
   <div class="text-center">
     {{ if title }}
-      <h2>
+      <h2 class="text-pretty">
         {{ title }}
       </h2>
     {{ /if }}
