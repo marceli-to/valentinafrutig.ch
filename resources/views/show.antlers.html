@@ -11,13 +11,13 @@
     {{ title }}
   </h1>
 
-  {{ if editor }}
+  {{ if text_detail }}
     <div class="mb-30 lg:mb-50 max-w-lg">
-      {{ editor }}
+      {{ text_detail }}
         {{ if type == 'text' }}
           <div>{{ text }}</div>
         {{ /if }}
-      {{ /editor }}
+      {{ /text_detail }}
     </div>
   {{ /if }}
 

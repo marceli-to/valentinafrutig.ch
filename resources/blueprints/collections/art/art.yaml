@@ -6,11 +6,6 @@ tabs:
       -
         fields:
           -
-            handle: type
-            field:
-              type: text
-              display: Typ
-          -
             handle: title
             field:
               type: text
@@ -19,7 +14,7 @@ tabs:
               validate:
                 - required
           -
-            import: editor
+            import: text_detail
           -
             handle: blocks
             field:
@@ -44,7 +39,17 @@ tabs:
         display: Teaser
         fields:
           -
-            import: image
+            handle: image
+            field:
+              container: assets
+              max_files: 1
+              min_files: 1
+              type: assets
+              display: Image
+              validate:
+                - required
+          -
+            import: text_teaser
   sidebar:
     display: Sidebar
     sections:

@@ -1,0 +1,27 @@
+title: 'Text Teaser'
+fields:
+  -
+    handle: text_teaser
+    field:
+      type: bard
+      display: Text
+      buttons:
+        - h2
+        - h3
+        - bold
+        - unorderedlist
+        - removeformat
+        - anchor
+      toolbar_mode: floating
+      link_collections:
+        - pages
+      container: assets
+      remove_empty_nodes: true
+      collapse: true
+      sets:
+        main:
+          display: Main
+          sets:
+            neues_set:
+              display: 'Neues Set'
+              fields: {  }
