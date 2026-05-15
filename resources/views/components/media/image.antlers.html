@@ -30,7 +30,7 @@
       alt="{{ alt }}"
       height="{{ height ?? image:height }}"
       width="{{ width ?? image:width }}"
-      class="block {{ class ?? '' }}"
+      class="block w-full h-auto {{ class ?? '' }}"
       loading="{{ eager ? 'eager' : 'lazy' }}">
   </picture>
   {{ if caption }}
