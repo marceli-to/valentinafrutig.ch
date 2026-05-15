@@ -1,14 +1,18 @@
-<li 
-  class="{{ if first && !is_current }}lg:mr-124 hover:lg:mr-99{{ /if }} {{ if first && is_current }}lg:mr-124{{ /if }} {{ if last }}lg:ml-auto{{ /if }}">
-  <a 
-    href="{{ url }}" 
-    class="block text-[50px] lg:text-[30px] hover:lg:text-[55px] hover:lg:font-serif hover:lg:font-normal leading-none {{ !is_current ? 'uppercase hover:lg:normal-case' : '' }} {{ is_current ? 'uppercase lg:!normal-case lg:font-serif lg:font-normal text-[50px] lg:text-[55px]' : '' }}"
-    aria-label="{{ title }}">
-    {{ if mobile_title }}
-      <span class="lg:hidden">{{ mobile_title }}</span>
-      <span class="hidden lg:inline">{{ title }}</span>
-    {{ else }}
-      <span>{{ title }}</span>
-    {{ /if }}
+<li class="{{ if last }}lg:ml-auto{{ /if }}">
+  <a
+    href="{{ url }}"
+    aria-label="{{ title }}"
+    class="relative inline-grid leading-none text-[50px] lg:text-[30px] {{ !is_current ? 'uppercase lg:pt-36 hover:lg:pt-0 hover:lg:normal-case hover:lg:font-serif hover:lg:font-normal hover:lg:text-[55px]' : '' }} {{ is_current ? 'uppercase lg:!normal-case lg:font-serif lg:font-normal lg:text-[55px]' : '' }}">
+    <span aria-hidden="true" class="hidden lg:block invisible font-serif font-normal text-[55px] normal-case leading-none [grid-area:1/1]">
+      {{ title }}
+    </span>
+    <span class="[grid-area:1/1]">
+      {{ if mobile_title }}
+        <span class="lg:hidden">{{ mobile_title }}</span>
+        <span class="hidden lg:inline">{{ title }}</span>
+      {{ else }}
+        {{ title }}
+      {{ /if }}
+    </span>
   </a>
 </li>
