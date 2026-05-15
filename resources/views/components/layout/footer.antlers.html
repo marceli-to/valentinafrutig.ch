@@ -1,4 +1,4 @@
-<footer class="pt-60 pb-40 lg:py-40 px-20 lg:px-40 lg:max-w-inner w-full mx-auto mt-60 lg:mt-120 text-[15px] lg:text-[15px] xl:text-[18px]">
+<footer class="pt-60 pb-40 lg:py-40 px-20 lg:px-40 lg:max-w-inner w-full mx-auto mt-60 lg:mt-120 text-sm xl:text-md">
 
   <div class="lg:flex lg:justify-between w-full">
 
@@ -11,8 +11,18 @@
     {{ /if }}
 
     {{ if contact:copyright }}
-      <div class="text-center">
-        &copy; {{ 'now' | format('Y') }}  {{ contact:copyright }}
+      <div class="text-center lg:text-left">
+        <div>
+          &copy; {{ 'now' | format('Y') }}  {{ contact:copyright }}
+        </div>
+        <div>
+          <a 
+            href="/datenschutzerklaerung"
+            class="no-underline underline-offset-2 hover:underline"
+            aria-label="Datenschutzerklärung">
+            Datenschutzerklärung
+          </a>
+        </div>
       </div>
     {{ /if }}
 

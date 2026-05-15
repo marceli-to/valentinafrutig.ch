@@ -46,7 +46,7 @@ strong, b {
 
 article h1,
 article h2 {
-  @apply text-[30px] lg:text-[50px] leading-[1.05] uppercase mb-5 lg:mb-15;
+  @apply text-xl lg:text-3xl leading-[1.05] uppercase mb-5 lg:mb-15;
 }
 
 article h3 {
