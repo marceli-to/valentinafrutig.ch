@@ -24,8 +24,16 @@
 
 @font-face {
   font-family: 'Sloop';
-  src: url('../../fonts/Sloop-ScriptThree.woff2') format('woff2'), url('../../fonts/Sloop-ScriptThree.woff') format('woff');
+  src: url('../../fonts/Sloop-ScriptTwo.woff2') format('woff2'), url('../../fonts/Sloop-ScriptTwo.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
+
+/* @font-face {
+  font-family: 'Sloop';
+  src: url('../../fonts/Sloop-ScriptThree.woff2') format('woff2'), url('../../fonts/Sloop-ScriptThree.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+} */
