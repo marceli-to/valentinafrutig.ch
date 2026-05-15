@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-BNM2mIWE.css",
+    "file": "assets/app-BwK6aaVo.css",
     "name": "app",
     "names": [
       "app.css"
@@ -14,8 +14,8 @@
       "assets/Dazzed-SemiBoldItalic-DAsIGhg4.woff",
       "assets/Dazzed-Bold-tVl1Sr5g.woff2",
       "assets/Dazzed-Bold-LsUfqxMm.woff",
-      "assets/Sloop-ScriptThree-jpDbjuxV.woff2",
-      "assets/Sloop-ScriptThree-BtMW281U.woff"
+      "assets/Sloop-ScriptTwo-Bu5c4q9D.woff2",
+      "assets/Sloop-ScriptTwo-ZpJKKK4J.woff"
     ]
   },
   "resources/fonts/Dazzed-Bold.woff": {
@@ -42,13 +42,13 @@
     "file": "assets/Dazzed-SemiBoldItalic-CeFSkiWv.woff2",
     "src": "resources/fonts/Dazzed-SemiBoldItalic.woff2"
   },
-  "resources/fonts/Sloop-ScriptThree.woff": {
-    "file": "assets/Sloop-ScriptThree-BtMW281U.woff",
-    "src": "resources/fonts/Sloop-ScriptThree.woff"
+  "resources/fonts/Sloop-ScriptTwo.woff": {
+    "file": "assets/Sloop-ScriptTwo-ZpJKKK4J.woff",
+    "src": "resources/fonts/Sloop-ScriptTwo.woff"
   },
-  "resources/fonts/Sloop-ScriptThree.woff2": {
-    "file": "assets/Sloop-ScriptThree-jpDbjuxV.woff2",
-    "src": "resources/fonts/Sloop-ScriptThree.woff2"
+  "resources/fonts/Sloop-ScriptTwo.woff2": {
+    "file": "assets/Sloop-ScriptTwo-Bu5c4q9D.woff2",
+    "src": "resources/fonts/Sloop-ScriptTwo.woff2"
   },
   "resources/js/app.js": {
     "file": "assets/app-N8asSafH.js",
