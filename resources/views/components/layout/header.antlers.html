@@ -1,19 +1,18 @@
 <header class="lg:sticky lg:top-0 lg:left-0 lg:bg-white px-20 lg:px-40 lg:max-w-outer w-full mx-auto lg:flex lg:items-center h-[var(--header-height-sm)] lg:h-[var(--header-height-lg)]">
-  <div class="flex justify-between lg:w-full">
 
-    <div 
-      class="fixed top-24 left-20 lg:!hidden"
-      data-shy>
-      <a 
-        href="{{ site:url }}"
-        class="block w-160"
-        aria-label="Valentina Frutig">
+  <div
+    class="fixed top-0 inset-x-0 h-[var(--header-height-sm)] z-30 pointer-events-none lg:hidden bg-gradient-to-b from-white via-white/80 to-transparent"
+    data-shy>
+    <a
+      href="{{ site:url }}"
+      class="absolute top-24 left-20 block w-160 pointer-events-auto"
+      aria-label="Valentina Frutig">
       {{ partial:components/logos/logo class="w-full h-auto" }}
-      </a>
-    </div>
+    </a>
+    {{ partial:components/menu/buttons/show class="absolute top-38 right-20 pointer-events-auto" }}
+  </div>
 
-   {{ partial:components/menu/buttons/show class="fixed top-38 right-20 z-50 lg:!hidden" }}
-   {{ partial:components/menu/container }}
-
+  <div class="lg:flex lg:justify-between lg:w-full">
+    {{ partial:components/menu/container }}
   </div>
 </header>
