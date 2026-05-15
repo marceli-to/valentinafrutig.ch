@@ -44,12 +44,26 @@ tabs:
                         -
                           import: page_teaser
                     portrait:
-                      display: Portrait
+                      display: About
                       instructions: 'Add a portrait block with image and quote'
-                      icon: user
+                      icon: hero-image-above-text
                       fields:
                         -
                           import: portrait
+                    title_text:
+                      display: 'Title, Text'
+                      instructions: 'Title, Text Element'
+                      icon: text-formatting-initial-letter
+                      fields:
+                        -
+                          import: title_text
+                    privacy:
+                      display: Privacy
+                      instructions: 'Privacy / Datenschutz content'
+                      icon: shield
+                      fields:
+                        -
+                          import: privacy
   settings:
     display: Settings
     sections:

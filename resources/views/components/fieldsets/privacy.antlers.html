@@ -1,0 +1,10 @@
+<article class="max-lg:max-w-prose max-lg:mx-auto lg:max-w-4xl [&_h2]:mt-30">
+  <h1>{{ title }}</h1>
+  {{ if editor }}
+    {{ editor }}
+      {{ if type == 'text' }}
+        <div>{{ text }}</div>
+      {{ /if }}
+    {{ /editor }}
+  {{ /if }}
+</article>
