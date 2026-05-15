@@ -1,8 +1,9 @@
+{{ is_active = is_current || (url == '/' && segment_1 == 'art') }}
 <li class="{{ if last }}lg:ml-auto{{ /if }}">
   <a
     href="{{ url }}"
     aria-label="{{ title }}"
-    class="relative inline-grid leading-none text-[50px] lg:text-[30px] {{ !is_current ? 'uppercase lg:pt-36 hover:lg:pt-0 hover:lg:normal-case hover:lg:font-serif hover:lg:font-normal hover:lg:text-[55px]' : '' }} {{ is_current ? 'uppercase lg:!normal-case lg:font-serif lg:font-normal lg:text-[55px]' : '' }}">
+    class="relative inline-grid leading-none text-[50px] lg:text-[30px] {{ !is_active ? 'uppercase lg:pt-36 hover:lg:pt-0 hover:lg:normal-case hover:lg:font-serif hover:lg:font-normal hover:lg:text-[55px]' : '' }} {{ is_active ? 'uppercase lg:!normal-case lg:font-serif lg:font-normal lg:text-[55px]' : '' }}">
     <span aria-hidden="true" class="hidden lg:block invisible font-serif font-normal text-[55px] normal-case leading-none [grid-area:1/1]">
       {{ title }}
     </span>
