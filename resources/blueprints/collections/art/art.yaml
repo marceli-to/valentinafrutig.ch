@@ -50,6 +50,14 @@ tabs:
                 - required
           -
             import: text_teaser
+  settings:
+    display: Settings
+    sections:
+      -
+        display: SEO
+        fields:
+          -
+            import: seo
   sidebar:
     display: Sidebar
     sections:
