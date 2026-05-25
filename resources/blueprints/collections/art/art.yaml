@@ -1,5 +1,23 @@
 title: Art
 tabs:
+  teaser:
+    display: Teaser
+    sections:
+      -
+        display: Teaser
+        fields:
+          -
+            handle: image
+            field:
+              container: assets
+              max_files: 1
+              min_files: 1
+              type: assets
+              display: Image
+              validate:
+                - required
+          -
+            import: text_teaser
   main:
     display: Main
     sections:
@@ -32,24 +50,6 @@ tabs:
                       fields:
                         -
                           import: image
-  teaser:
-    display: Teaser
-    sections:
-      -
-        display: Teaser
-        fields:
-          -
-            handle: image
-            field:
-              container: assets
-              max_files: 1
-              min_files: 1
-              type: assets
-              display: Image
-              validate:
-                - required
-          -
-            import: text_teaser
   settings:
     display: Settings
     sections:

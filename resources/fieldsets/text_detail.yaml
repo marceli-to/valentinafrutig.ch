@@ -16,12 +16,14 @@ fields:
       link_collections:
         - pages
       container: assets
-      remove_empty_nodes: true
+      remove_empty_nodes: trim
       collapse: true
       sets:
         main:
           display: Main
           sets:
-            neues_set:
-              display: 'Neues Set'
+            spacer:
+              display: Spacer
+              instructions: 'Add an empty line'
+              icon: fieldtype-spacer
               fields: {  }

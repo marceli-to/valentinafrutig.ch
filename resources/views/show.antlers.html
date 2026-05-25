@@ -17,6 +17,9 @@
         {{ if type == 'text' }}
           <div>{{ text }}</div>
         {{ /if }}
+        {{ if type == 'spacer' }}
+          <p>&nbsp;</p>
+        {{ /if }}
       {{ /text_detail }}
     </div>
   {{ /if }}
