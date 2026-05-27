@@ -5,10 +5,8 @@ fields:
   -
     handle: title
     field:
-      type: text
+      type: textarea
       display: Titel
-      validate:
-        - required
   -
     import: editor
   -
