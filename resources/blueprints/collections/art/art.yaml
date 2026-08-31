@@ -54,6 +54,17 @@ tabs:
     display: Settings
     sections:
       -
+        display: Preisliste
+        fields:
+          -
+            handle: pricelist
+            field:
+              container: assets
+              max_files: 1
+              type: assets
+              display: 'Preisliste (PDF)'
+              instructions: 'Optional. Ist eine Preisliste hinterlegt, kann sie unter der Ausstellungs-URL + "/pl.pdf" aufgerufen werden.'
+      -
         display: SEO
         fields:
           -
